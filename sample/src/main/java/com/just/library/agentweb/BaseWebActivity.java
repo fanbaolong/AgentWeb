@@ -104,7 +104,8 @@ public class BaseWebActivity extends AppCompatActivity {
     };
     public String getUrl(){
 
-        return "https://m.jd.com/";
+//        return "https://m.jd.com/";
+        return "http://myxtest.huiepay.com/bx/rpt/mchtpayreport/init?session_id=1706201715304wks&mcht_cd=99B170523520447&user_no=18896572331";
     }
 
     private ChromeClientCallbackManager.ReceivedTitleCallback mCallback = new ChromeClientCallbackManager.ReceivedTitleCallback() {
